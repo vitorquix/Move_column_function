@@ -1,4 +1,4 @@
-'''
+```
 ########### Functions ###########
 moveme <- function (invec, movecommand) {
   movecommand <- lapply(strsplit(strsplit(movecommand, ";")[[1]], 
@@ -32,4 +32,4 @@ moveme <- function (invec, movecommand) {
   }
   myVec
 }
-'''
+```
