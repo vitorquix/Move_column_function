@@ -4,7 +4,7 @@ Function to move a column in R.
 
 Description:
 
-```R
+```r
 ########### Functions ###########
 moveme <- function (invec, movecommand) {
   movecommand <- lapply(strsplit(strsplit(movecommand, ";")[[1]], 
@@ -42,5 +42,5 @@ moveme <- function (invec, movecommand) {
 
 How to use:
 
-```R
+```r
 moveme(names(df), "Text")
