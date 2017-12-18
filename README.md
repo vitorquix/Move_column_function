@@ -51,7 +51,7 @@ moveme(names(df),"Col3 before Col1")
 #Col3 after Col1
 moveme(names(df),"Col3 after Col1")
 
-#Col3 frist
+#Col3 first
 moveme(names(df),"Col3 first")
 
 #Col3 last
