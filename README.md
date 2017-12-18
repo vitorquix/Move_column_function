@@ -46,14 +46,14 @@ How to use:
 df <- data.frame("Col1" = 1,"Col2" = 2,"Col3" = 3)
 
 #Col3 before Col1
-moveme(names(df),"Col3 before Col1")
+df <- df[moveme(names(df),"Col3 before Col1")]
 
 #Col3 after Col1
-moveme(names(df),"Col3 after Col1")
+df <- df[moveme(names(df),"Col3 after Col1")]
 
 #Col3 first
-moveme(names(df),"Col3 first")
+df <- df[moveme(names(df),"Col3 first")]
 
 #Col3 last
-moveme(names(df),"Col3 last")
+df <- df[moveme(names(df),"Col3 last")]
 ```
