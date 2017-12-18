@@ -43,4 +43,4 @@ moveme <- function (invec, movecommand) {
 How to use:
 
 ```
-moveme(names(df$col1), "Col1 first")
+moveme(names(df), "Text")
