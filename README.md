@@ -45,15 +45,15 @@ How to use:
 ```r
 df <- data.frame("Col1" = 1,"Col2" = 2,"Col3" = 3)
 
-#Col3 before Col1
-df <- df[moveme(names(df),"Col3 before Col1")]
+#Col3 before Col2
+df <- df[moveme(names(df),"Col3 before Col2")]
 
-#Col3 after Col1
-df <- df[moveme(names(df),"Col3 after Col1")]
+#Col1 after Col3
+df <- df[moveme(names(df),"Col1 after Col3")]
 
 #Col3 first
 df <- df[moveme(names(df),"Col3 first")]
 
-#Col3 last
-df <- df[moveme(names(df),"Col3 last")]
+#Col1 last
+df <- df[moveme(names(df),"Col1 last")]
 ```
