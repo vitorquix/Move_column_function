@@ -2,7 +2,7 @@
 
 Função para mover colunas em R.
 
-Description:
+Descrição:
 
 ```r
 ########### Functions ###########
@@ -40,7 +40,7 @@ moveme <- function (invec, movecommand) {
 }
 ```
 
-How to use:
+Como usar:
 
 ```r
 df <- data.frame("Col1" = 1,"Col2" = 2,"Col3" = 3)
